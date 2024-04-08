@@ -2,7 +2,7 @@
 	"format_version": 2,
 	"header": {
 		"name": "Hey Wiki BE",
-		"description": "Some test",
+		"description": "A port of Hey Wiki for Bedrock Edition.",
 		"min_engine_version": [
 			1,
 			20,
@@ -11,7 +11,7 @@
 		"uuid": "911d0de6-4d87-422f-ae9e-e9cd601b2626",
 		"version": [
 			1,
-			1,
+			0,
 			0
 		]
 	},
@@ -21,7 +21,7 @@
 			"uuid": "40122d8f-8bc5-4039-af1e-5a6c4d56dae0",
 			"version": [
 				1,
-				1,
+				0,
 				0
 			]
 		},
@@ -33,12 +33,20 @@
 			"uuid": "096ee791-14d7-47f8-829a-e29c10fb30cc",
 			"version": [
 				1,
-				1,
+				0,
 				0
 			]
 		}
 	],
 	"dependencies": [
+		{
+			"uuid": "f3110e0b-90d9-44f2-afca-f4bb5a7790f2",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
 		{
 			"module_name": "@minecraft/server",
 			"version": "1.10.0-beta"
